@@ -18,13 +18,13 @@ from changerBlade import *
 Po zaimportowaniu biblioteki, można zacząć korzystać z jej funkcji. Na przykład, aby sprawdzić, czy dany znak jest samogłoską, można użyć następującego kodu:
 Python
 
-import changerBlade
+    import changerBlade
 
-is_vowel = changerBlade.sam_g("a")
-print(is_vowel)
+    is_vowel = changerBlade.sam_g("a")
+    print(is_vowel)
 
 Wynik:
-True
+    True
 
 Przykłady użycia biblioteki changerBlade:
 Oto kilka przykładów użycia biblioteki changerBlade:
@@ -32,10 +32,10 @@ Oto kilka przykładów użycia biblioteki changerBlade:
 
 Python
 
-import changerBlade
-word = "dom"
-kind_sex_word = changerBlade.kind_sex_word(word)
-print(kind_sex_word)
+    import changerBlade
+    word = "dom"
+    kind_sex_word = changerBlade.kind_sex_word(word)
+    print(kind_sex_word)
 
 Wynik:
 M
@@ -44,11 +44,11 @@ Pobranie liczby słowa:
 
 Python
 
-import changerBlade
+    import changerBlade
 
-word = "domy"
-lpm = changerBlade.lpm(word)
-print(lpm)
+    word = "domy"
+    lpm = changerBlade.lpm(word)
+    print(lpm)
 
 Wynik:
 LM
@@ -84,9 +84,9 @@ Once the library is imported, you can start using its functions. For example, to
 
 python
 
-import changerBlade
-is_vowel = changerBlade.sam_g("a")
-print(is_vowel)
+    import changerBlade
+    is_vowel = changerBlade.sam_g("a")
+    print(is_vowel)
 
 Result:
 graphql
@@ -99,20 +99,21 @@ Here are a few examples of how to use the changerBlade library:
 
 python
 
-import changerBlade
-word = "dom"
-kind_sex_word = changerBlade.kind_sex_word(word)
-print(kind_sex_word)
+    import changerBlade
+    word = "dom"
+    kind_sex_word = changerBlade.kind_sex_word(word)
+    print(kind_sex_word)
 
 Result:
 M
     Retrieving the number of a word:
 
 python
-import changerBlade
-word = "domy"
-lpm = changerBlade.lpm(word)
-print(lpm)
+
+    import changerBlade
+    word = "domy"
+    lpm = changerBlade.lpm(word)
+    print(lpm)
 
 Result:
 LM
