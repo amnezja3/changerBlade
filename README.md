@@ -1,4 +1,7 @@
 # changerBlade
+-----------------------------------------------------------------------------------
+changerBlade is a library that forms part of the "awareness" collection, a set of libraries designed to facilitate natural language processing in the Polish language. This library offers a range of functions tailored for the Polish language, including the ability to check if a character is a vowel, determine a word's gender and number, and extract word suffixes.
+-----------------------------------------------------------------------------------
 Biblioteka changerBlade to zbiór funkcji, które pomagają w przetwarzaniu języka naturalnego w języku polskim. Biblioteka zawiera funkcje do sprawdzania, czy dany znak jest samogłoską, do określania rodzaju i liczby słowa, a także do pobierania sufiksu słowa.
 
 Funkcje biblioteki changerBlade:
